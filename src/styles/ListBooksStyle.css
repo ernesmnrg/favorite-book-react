@@ -1,0 +1,23 @@
+.product-container {
+  grid-column: 2/5;
+}
+
+.card-book {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.book-image {
+  grid-column: 1/2;
+  padding: 2em;
+  width: 10rem;
+}
+
+.text-box-right {
+  grid-column: 2/10;
+}
+
+.App {
+  grid-column: 2/5;
+  padding: 2em;
+}

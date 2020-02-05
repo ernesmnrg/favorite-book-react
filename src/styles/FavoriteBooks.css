@@ -1,0 +1,19 @@
+.fav-product-container {
+  display: grid;
+  grid-column: 6/10;
+}
+
+.fav-card-books {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.fav-books-image {
+  grid-column: 1/2;
+  padding: 2em;
+  width: 10rem;
+}
+
+.fav-text-box-right {
+  grid-column: 2/10;
+}
